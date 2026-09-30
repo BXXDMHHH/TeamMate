@@ -15,3 +15,11 @@ spring:
 
 server:
   port: 8080
+
+# AI configuration.
+# The API key is read from the OPENAI_API_KEY environment variable.
+# Never commit a real API key to GitHub.
+teammate:
+  ai:
+    api-key: ${OPENAI_API_KEY:}
+    model: ${OPENAI_MODEL:gpt-5.5}
