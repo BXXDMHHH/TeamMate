@@ -1,0 +1,14 @@
+{
+  "name": "TeamMate Java 17",
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "cd teammate-server && mvn -version"
+}
