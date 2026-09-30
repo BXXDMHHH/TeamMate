@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Maven
+teammate-server/target/
+
+# Java
+*.class
+
+# Android
+teammate-android/.gradle/
+teammate-android/build/
+teammate-android/**/build/
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
